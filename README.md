@@ -13,7 +13,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
     - [Built with](#built-with)
   - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -31,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/melquawest/NFT-Preview-Card-Component)
+- Live Site URL: [Click to view](https://melquawest.github.io/NFT-Preview-Card-Component/)
 
 
 ### Built with
@@ -44,6 +43,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [NFT preview card](https://www.your-site.com)
+- Website - [NFT preview card](https://melquawest.github.io/NFT-Preview-Card-Component/)
 - Frontend Mentor - [@melquawest](https://www.frontendmentor.io/profile/melquawest)
 - Twitter - [@melqua_](https://www.twitter.com/melqua_)
