@@ -1,0 +1,114 @@
+@import "variables";
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: $main-background;
+}
+
+.card{
+    width: 20%;
+    font-family: Outfit, Arial, Helvetica, sans-serif;
+    background-color: $card-background;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 8px 8px 10px 8px $main-background;
+
+    .equilibrium-image{
+        img{
+            width: 100%;
+            border-radius: 9px;
+        }
+    }
+
+    .crypto{
+        font-weight: 600;
+        padding: 10px 0;
+        color: $light;
+    }
+
+    .crypto-info{
+        font-weight: 300;
+        color: $soft-blue;
+        padding-bottom: 15px;
+    }
+
+    .crypto-rate{
+        display: flex;
+        color: $soft-blue;
+        font-size: 13px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid $horizontal-line;
+
+        .rate{
+            display: inline-flex;
+            margin-right: auto;
+            color: $cyan;
+            font-weight: 600;
+            align-content: center;
+            #rate{
+                align-items: center;
+                padding-right: 5px;
+            }
+
+        }
+
+        .crypto-duration{
+            display: inline-flex;
+            font-size: 300;
+            align-content: center;
+            #crypto-duration{
+                padding-right: 3px;
+            }
+        }
+    }
+
+    .user{
+        padding: 15px 0 0;
+        color: $light;
+        .user-name{
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            img{
+                width: 25px;
+                border: 1px solid $light;
+                border-radius: 50%;
+                margin-right: 6px;
+            }
+        }
+
+        #cr{
+            color: $soft-blue;
+        }
+    }
+
+}
+.attribution{
+    font-family: Outfit, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: $soft-blue;
+    text-align: center;
+    margin: 40px 0;
+
+    a{
+        color: $link-color;
+        text-decoration: none;
+    }
+    a:hover{
+        color: $soft-blue;
+        text-decoration: underline;
+    }
+}
+
+@media all and (max-width: 600px){
+    .card{
+        min-width: 300px;
+    }
+}
