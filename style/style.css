@@ -22,6 +22,13 @@ body {
   width: 100%;
   border-radius: 9px;
 }
+.card .equilibrium-image:hover {
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 9px;
+}
+.card .equilibrium-image:hover img {
+  opacity: 70%;
+}
 .card .crypto {
   font-weight: 600;
   padding: 10px 0;
